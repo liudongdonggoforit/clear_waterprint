@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ClearWaterPrint</string>
+    <string name="resolve_remind">注:单视频解析请复制视频分享链接，批量解析请复制用户分享链接</string>
+    <string name="edit_input_hint_remind">\ 请粘贴视频或用户分享链接</string>
+    <string name="no_url">内容需要包含一个有效的网址</string>
+    <!--网址-->
+    <string name="url_douyin_regex">(?s).*?(www\.iesdouyin\.com|v\.douyin\.com).*?</string>
+
+    <!--异常-->
+    <string name="exception_invalid_video">无法获取到有效的视频</string>
+    <string name="exception_douyin_url">不是一个抖音视频播放的网址</string>
+    <string name="exception_invalid_url">没有匹配到有效网址，比如：https://v.douyin.com/...</string>
+    <string name="exception_http">无法访问该URL，或无法获取到有效内容</string>
+</resources>
